@@ -1,0 +1,26 @@
+.body-post-container {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  height: 80vh;
+}
+
+.post-container {
+  background-color: #f8f8fff0;
+  color: #333333;
+  width: 20rem;
+  height: 80%;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.post-container > * {
+  margin-bottom: 1rem;
+}
+.user-comment-box {
+  font-size: 14px;
+}
+.user-comment-box h4 {
+  color: #6a49bf;
+}

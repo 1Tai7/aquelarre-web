@@ -1,0 +1,25 @@
+:root {
+  --white: #ffffff;
+  --violet: #6a49bf;
+  --bound: #d9d9d9;
+  --black: #333333;
+  --light-violet: #f8f8ffd6;
+}
+
+* {
+  margin: 0;
+  font-family: "Happy Monkey", system-ui;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6a49bf;
+  color: #ffffff;
+  background-image: url("./assets/fondo-aquellare-app.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 99vh;
+  box-sizing: border-box;
+
+  padding-inline: 2rem;
+}
