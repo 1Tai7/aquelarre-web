@@ -53,9 +53,10 @@ describe("Modal Component", () => {
       target: { value: "Este es un post de prueba" },
     });
 
-    // Verificar que los valores se actualizaron correctamente
     expect(titleInput.value).toBe("Test Post");
+
     expect(tagInput.value).toBe("#tag1, #tag2");
+
     expect(textArea.value).toBe("Este es un post de prueba");
   });
 });
