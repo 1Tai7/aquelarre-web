@@ -9,7 +9,7 @@ import Register from "./register";
 //}));
 
 describe("Register Component", () => {
-  test("renders register form correctly", () => {
+  /* test("renders register form correctly", () => {
     render(
       <MemoryRouter>
         <Register />
@@ -24,7 +24,7 @@ describe("Register Component", () => {
     expect(screen.getByRole("button", { name: /Enviar/i })).toBeInTheDocument();
   });
 
-  /*  test("validates empty form submission", async () => {
+   test("validates empty form submission", async () => {
     render(
       <MemoryRouter>
         <Register />
