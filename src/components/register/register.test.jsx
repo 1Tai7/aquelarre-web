@@ -2,11 +2,11 @@ import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { describe, test, expect, vi } from "vitest";
 import Register from "./register";
-import { registerWithEmailAndPassword } from "../../firebase/auth";
+// import { registerWithEmailAndPassword } from "../../firebase/auth";
 
-vi.mock("../../firebase/auth", () => ({
-  registerWithEmailAndPassword: vi.fn(),
-}));
+//vi.mock("../../firebase/auth", () => ({
+//  registerWithEmailAndPassword: vi.fn(),
+//}));
 
 describe("Register Component", () => {
   test("renders register form correctly", () => {
