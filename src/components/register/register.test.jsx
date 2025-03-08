@@ -49,7 +49,7 @@ describe("Register Component", () => {
   });
 
   test("handles successful registration", async () => {
-    registerWithEmailAndPassword.mockResolvedValue({ user: { uid: "123" } });
+    // registerWithEmailAndPassword.mockResolvedValue({ user: { uid: "123" } });
 
     render(
       <MemoryRouter>
@@ -74,9 +74,9 @@ describe("Register Component", () => {
   });
 
   test("handles failed registration due to email already in use", async () => {
-    registerWithEmailAndPassword.mockResolvedValue({
-      error: { errorCode: "auth/email-already-in-use" },
-    });
+    //  registerWithEmailAndPassword.mockResolvedValue({
+    //  error: { errorCode: "auth/email-already-in-use" },
+    //});
 
     render(
       <MemoryRouter>
