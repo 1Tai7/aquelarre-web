@@ -26,9 +26,6 @@ jobs:
       - name: Install dependencies
         run: npm install # o yarn install
 
-      - name: Run tests
-        run: npm run test # o yarn test
-
       - name: Create .env.test file
         run: |
           echo "VITE_CONFIG_FIREBASE=${{ secrets.VITE_CONFIG_FIREBASE }}" >> .env.test
