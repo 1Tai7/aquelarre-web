@@ -1,6 +1,6 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { describe, test, expect, vi, beforeEach } from "vitest";
-import Modal from "./modal.jsx";
+import Modal from "./modal";
 vi.mock("../../firebase/post", () => ({
   createPost: vi.fn().mockResolvedValue(true),
 }));
